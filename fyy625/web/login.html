@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>页面登录</title>
+<link rel="icon" href="../images\favicon.ico">
+<style type="text/css">
+body {
+    background-image: url(../images/mihoyo-logo.png);
+    background-repeat: repeat-x;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #070707;
+}
+.tr2 {
+    margin: 0%;
+    padding-top: 0px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    text-align: left;
+    font-size: xx-large;
+}
+.tr5 {
+    margin: 0%;
+    padding-top: 0px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    text-align: left;
+    font-size: xx-large;
+    position: relative;
+    left: -10px;
+}
+.tr1 {
+    padding-top: 8px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    font-size: x-large;
+}
+.tr3 {
+    margin: 0%;
+    padding-top: 0px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: left;
+    font-size: xx-large;
+}
+.tr4 {
+    text-align: center;
+    font-size: xx-large;
+    width: auto;
+    height: auto;
+}
+.duiqi {
+    text-align: center;
+}
+a:link {
+    color: #F58302;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #F79F00;
+}
+a:hover {
+    text-decoration: none;
+    color: #EFA703;
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}
+a:active {
+    text-decoration: none;
+    color: #EEA105;
+}
+.jj_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+</style>
+<link href="./css/CSS.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table  class="logintext" width="800" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tbody>
+   <tr>
+      <td colspan="8"><img src="../images\tiwate.png" width="1000" height="190" alt=""/></td>
+    </tr>
+    <tr>
+<table  class="logintext" width="800" border="0" cellspacing="0" cellpadding="0" align="center">
+      <td class="tr1" width="100"  bgcolor="#DAD5D5"><a href="../index.html">首页</a></td>
+      <td class="tr1"  width="100" bgcolor="#DAD5D5"><a href="login.html">登录</a></td>
+      <td class="tr1"  width="100" bgcolor="#DAD5D5"><a href="world.html">世界</a></td>
+      <td class="tr1" width="100"  bgcolor="#DAD5D5"><a href="figure.html">角色</a></td>
+      <td class="tr1" width="30"  bgcolor="#DAD5D5"><a href="wallpaper.html">壁纸</a></td>
+
+    </tr>
+   
+    <tr class="tr4" >
+      <td colspan="8" style="color:white"><h1>用户登录/注册</h1></td>
+    </tr>
+    <tr>
+      <td colspan="3" class="tr2 duiqi" style="color:white" >手机号/QQ/微信：</td>
+      <td colspan="3" class="tr4 duiqi" style="color:white"><input  type="text" id="textfield" placeholder="请输入密码"></td>
+    </tr>
+    <tr >
+      <td colspan="3"  class="tr3 duiqi" style="color:white" ><p>密码：<br>
+      </p></td>
+      <td colspan="3" class="tr4 duiqi" style="color:white"><input name="password" type="password" id="password" placeholder="请输入密码"></td>
+    </tr>
+    <tr>
+      <td colspan="3" class="tr2 duiqi" style="color:white">性别：</td>
+      <td colspan="3" class="tr4 duiqi" style="color:white"><p>
+        <label>
+          <input type="radio" name="RadioGroup1" value="male" id="RadioGroup1_0">
+          男</label>
+        
+        <label>
+          <input type="radio" name="RadioGroup1" value="female" id="RadioGroup1_1">
+          女</label>
+        <br>
+      </p></td>
+    </tr>
+    <tr>
+      <td colspan="3"  class="tr5 duiqi" style="color:white">邮箱:</td>
+      <td colspan="3" class="tr4 duiqi" style="color:white"><input name="textfield2" type="text" id="textfield2" placeholder="请输入邮箱"></td>
+    </tr>
+    <tr>
+      <td colspan="3"  class="tr2 duiqi" style="color:white"><input type="submit" name="submit" id="submit" value="登录"></td>
+      <td colspan="3" class="duiqi" style="color:white"><input type="reset" name="reset" id="reset" value="注册">
+      <a href="#">忘记密码？</a></td>
+    </tr>
+    <tr>
+      <td colspan="8"  align="center"><p class="logintext" style="color:white">用户协议 | 隐私政策 | 儿童隐私政策 | 自律公约 | 关于我们 | 联系我们 | 加入我们</p>
+        <p class="logintext" style="color:white" >健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。 <br>
+      </p></td>
+    </tr>
+  </tbody>
+</table>
+<div class="jj_video">
+<video style="width: 100vw;" loop="loop" muted="muted" autoplay>
+  <source src="../images/vedio/login——使用Clipchamp制作.mp4">
+</video></div>
+</body>
+</html>
